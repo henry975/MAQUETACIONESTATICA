@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psicología: Teorías del Aprendizaje</title>
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+       /* Estilos generales */
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  header {
+    background: #6c5ce7;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #271c77;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 10px 20px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e8f4fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  /* Posicionamiento */
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .image-container img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Animaciones */
+  .box {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+  }
+
+  .box:hover {
+    transform: translateY(-10px);
+    background-color: #d4f0fc;
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in forwards;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+
+  .slide-in {
+    transform: translateX(-100%);
+    animation: slideIn 1s ease-out forwards;
+  }
+
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .zoom-in {
+    transform: scale(0);
+    animation: zoomIn 1s ease-in forwards;
+  }
+
+  @keyframes zoomIn {
+    to {
+      transform: scale(1);
+    }
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Psicología: Teorías del Aprendizaje</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#introduccion">Introducción</a></li>
+      <li><a href="#teorias">Teorías del Aprendizaje</a></li>
+      <li><a href="#importancia">Importancia</a></li>
+      <li><a href="#conclusiones">Conclusiones</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <section id="introduccion" class="fade-in">
+      <h2>Introducción</h2>
+      <div class="box">
+        <p>La psicología del aprendizaje estudia cómo los individuos adquieren, procesan y retienen conocimientos y habilidades. Las teorías del aprendizaje buscan explicar estos procesos y cómo pueden aplicarse en la educación y el desarrollo personal.</p>
+      </div>
+    </section>
+    <section id="teorias" class="slide-in">
+      <h2>Teorías del Aprendizaje</h2>
+      <div class="box">
+        <h3>Conductismo</h3>
+        <p>El conductismo, liderado por autores como Pavlov y Skinner, se centra en cómo el entorno y los estímulos externos influyen en el comportamiento. Propone que el aprendizaje ocurre a través del condicionamiento.</p>
+      </div>
+      <section class="image-container">
+        <img src="img/conductismo.jpg" alt="Constructivismo">
+      </section>
+      <div class="box">
+        <h3>Cognitivismo</h3>
+        <p>El cognitivismo, desarrollado por Piaget y Vygotsky, enfatiza los procesos internos del aprendizaje, como la memoria, la percepción y la solución de problemas.</p>
+      </div>
+      <section class="image-container">
+        <img src="img/conductismo.jpg" alt="Constructivismo">
+      </section>
+      <div class="box">
+        <h3>Constructivismo</h3>
+        <p>El constructivismo sostiene que los individuos construyen su propio conocimiento basado en sus experiencias y reflexiones. Esta teoría destaca el aprendizaje activo y significativo.</p>
+      </div>
+      <section class="image-container">
+        <img src="img/conductismo.jpg" alt="Constructivismo">
+      </section>
+      <div class="box">
+        <h3>Constructivismo</h3>
+        <p>El constructivismo sostiene que los individuos construyen su propio conocimiento basado en sus experiencias y reflexiones. Esta teoría destaca el aprendizaje activo y significativo.</p>
+      </div>
+    </section>
+    <section class="image-container">
+        <img src="img/conductismo.jpg" alt="Constructivismo">
+      </section>
+    <section id="importancia" class="zoom-in">
+      <h2>Importancia</h2>
+      <div class="box">
+        <p>Las teorías del aprendizaje son fundamentales para diseñar métodos de enseñanza efectivos y comprender cómo las personas se desarrollan en diferentes contextos. Ayudan a mejorar la educación y la formación profesional.</p>
+      </div>
+    </section>
+    <section id="conclusiones">
+      <h2>Conclusiones</h2>
+      <div class="box">
+        <p>Comprender las teorías del aprendizaje permite a los educadores y psicólogos aplicar estrategias basadas en evidencia para fomentar el desarrollo del potencial humano.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
